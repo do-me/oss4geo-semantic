@@ -7,6 +7,7 @@ This is work in progress and needs some fine tuning but you can already explore 
 ## To Do 
 - improve script to access repos that are on GitHub but self-hosted GitLab instances or similar
 - before creating the embeddings it might be best to let an LLM create a summary first. If there is too much code/special formatting etc. the embeddings might become inaccurate. They work best on clear textual descriptions of what the package does
+- above method would also remove the special chars etc., alternatively just convert markdown to normal text and strip code
 - create a simple static frontend app (e.g. based on https://github.com/flekschas/regl-scatterplot/ or similar)
 - create LLM-based labels of the clusters add the labels to the plot (e.g. one can see clusters for raster processing, CAD, stac and so on)
 
