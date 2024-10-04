@@ -10,6 +10,7 @@ This is work in progress and needs some fine tuning but you can already explore 
 - above method would also remove the special chars etc., alternatively just convert markdown to normal text and strip code
 - create a simple static frontend app (e.g. based on https://github.com/flekschas/regl-scatterplot/ or similar)
 - create LLM-based labels of the clusters add the labels to the plot (e.g. one can see clusters for raster processing, CAD, stac and so on)
+- improve tooltips to plot and add LLM-generated mini summary of like 1-2 sentences
 
 ## Why? 
 - We had a chat at https://earthmonitor.org/ 2024 and thought it might make for a good enhancement!
